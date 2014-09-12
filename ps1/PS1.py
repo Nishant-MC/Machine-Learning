@@ -270,8 +270,6 @@ print( "Weight Dictionary Keys:",weight_list,"\n" )
 spam_correlated_words = []
 spam_inverse_correlated_words = []
 
-### OH FUCK FIX THE DISPLAY ISSUE WHERE IT GIVES ONLY ONE WORD FROM EACH CLASS
-
 
 counter = 0
 while counter < 15:
@@ -313,33 +311,3 @@ for number in spam_inverse_correlated_words:
         if refined_vocab[word]["id"] == number[0]:
             print(word, "(", number[1], ")")
             continue
-
-
-"""
-for element in weight_list:
-    if element > 0:
-        spam_correlated_words.append(element)
-    elif element < 0:
-        spam_inverse_correlated_words.append(element)
-    else: # No correlation with spam or non-spam, this feature = 0 in the weight vector
-        pass
-    
-spam_correlated_words.sort()
-spam_inverse_correlated_words.sort()
-
-
-print( "\nSPAM CORRELATED WORDS:" )
-for number in spam_correlated_words:
-    for word in refined_vocab:
-        if refined_vocab[word]["id"] == number:
-            print(word)
-            continue
-
-
-print( "\nWORDS INVERSELY CORRELATED WITH SPAM:" )
-for number in spam_inverse_correlated_words:
-    for word in refined_vocab:
-        if refined_vocab[word]["id"] == number:
-            print(word)
-            continue
-"""
