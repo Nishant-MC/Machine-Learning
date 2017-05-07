@@ -10,7 +10,7 @@ Just some bits and bobs for a machine learning course I'm trying to self-learn (
    * Link to the assignment: [https://goo.gl/rxkVJt](https://goo.gl/rxkVJt)
 
 * ps3-support-vector-machines - Utilizing SVMs to classify MNIST digits data (R)
-   * Link to the assignment: [https://goo.gl/rxkVJt](https://goo.gl/rxkVJt)
+   * Link to the assignment: [https://goo.gl/3Tkf0R](https://goo.gl/3Tkf0R)
 
 * ps4-logistic-regression: Implementing a simple logistic regression unit, useful for classifying MNIST digits (Python)
    * Link to the assignment: [https://goo.gl/l1Tiv2](https://goo.gl/l1Tiv2)
